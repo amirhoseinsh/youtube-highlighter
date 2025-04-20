@@ -1,0 +1,12 @@
+youtube_cookies.txt
+.env
+node_modules/
+*.log
+*.sqlite3
+*.db
+
+
+# Ignore all files in the downloads directory
+# except for the .gitkeep file
+downloads/*
+!downloads/.gitkeep

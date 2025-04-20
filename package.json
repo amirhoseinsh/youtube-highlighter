@@ -1,0 +1,22 @@
+{
+  "name": "youtube-highlight-extractor",
+  "version": "1.0.0",
+  "description": "Extract highlight moments from YouTube videos using subtitle analysis and Claude AI",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.20",
+    "@google/genai": "^0.8.0",
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.6.7",
+    "commander": "^12.0.0",
+    "dotenv": "^16.5.0",
+    "fs-extra": "^11.2.0",
+    "groq-sdk": "^0.19.0",
+    "srt-parser-2": "^1.2.3",
+    "subtitle": "^4.2.1"
+  }
+}

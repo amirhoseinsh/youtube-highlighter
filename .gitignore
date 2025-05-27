@@ -1,12 +1,29 @@
-youtube_cookies.txt
+# Sensitive files
+cookies.txt
+**/cookies.txt
+*.cookies
+*_cookies.txt
+**/*_cookies.txt
+
+# Environment variables
 .env
+.env.*
+
+# Node.js dependencies
 node_modules/
+
+# Logs
 *.log
+
+# SQLite databases
 *.sqlite3
 *.db
-
 
 # Ignore all files in the downloads directory
 # except for the .gitkeep file
 downloads/*
 !downloads/.gitkeep
+
+# IDE specific
+.vscode/
+.idea/

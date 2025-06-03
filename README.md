@@ -1,4 +1,4 @@
-# YouTube Highlight Extractor
+# YouTube Highlight Extractor Narges Version
 
 A CLI tool that extracts highlight moments from YouTube videos using subtitle analysis with Groq AI and yt-dlp.
 

@@ -13,6 +13,7 @@ program
   .name('youtube-highlight-extractor')
   .description('Extract highlight moments from YouTube videos using subtitle analysis')
   .requiredOption('-u, --url <url>', 'YouTube video URL')
+  .requiredOption('-p, --prompt <prompt>', 'Prompt for highlight detection (e.g., "funny moments")')
   .requiredOption('-k, --api-key <key>', 'Groq API key')
   .option('-n, --num-highlights <number>', 'Number of highlights to extract', '5')
   .option('-d, --duration <minutes>', 'Approximate duration of each highlight in minutes', '2');
